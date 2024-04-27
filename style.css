@@ -1,0 +1,189 @@
+/* Importações de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Reset de estilos e estilos globais */
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Estilos do cabeçalho */
+.header {
+  padding: 5px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #102f4a;
+  color: white;
+}
+
+/* Estilos da barra de navegação */
+.nav-bar a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar a:hover {
+  border-bottom: 3px solid white;
+}
+
+/* Comportamento de rolagem suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilos da seção inicial */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home-texto {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos dos títulos e parágrafos */
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Estilos dos links na seção inicial */
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-links a {
+  padding: 10px 20px;
+  color: #102f4a;
+  text-decoration: none;
+  border: 2px solid #102f4a;
+}
+
+.home-links a:hover {
+  color: #316ea2;
+}
+
+/* Estilos da seção "Sobre Mim" */
+.home-sobre-mim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 50px;
+  background: #102f4a;
+}
+
+.home-sobre-mim h3 {
+  font-size: 1.5rem;
+  padding: 5px;
+  background-color: #a6bdd1;
+  color: #102f4a;
+  border: 2px solid #102f4a;
+  border-radius: 5px;
+}
+
+.home-sobre-mim p {
+  font-size: 1.2rem;
+  max-width: 1000px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Estilos da seção de habilidades */
+.skills {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 2px solid #102f4a;
+}
+
+.skills h4,
+.hobbies h4 {
+  display: inline-block;
+  padding: 5px;
+  background-color: #a6bdd1;
+  color: #102f4a;
+  border: 2px solid #102f4a;
+  border-radius: 5px;
+}
+
+/* Estilos da seção de formação */
+.formacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.formulario {
+  text-align: center;
+  outline: none;
+}
+
+.formulario h5 {
+  font-size: 1.5rem;
+}
+
+
+textarea,
+input {
+  width: 50%;
+  padding: 15px;
+  font-size: 1rem;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Estilos do botão de envio */
+button {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  background-color: #a6bdd1;
+  color: #102f4a;
+  border: 2px solid #102f4a;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #102f4a;
+  color: #a6bdd1;
+  cursor: pointer;
+}
+
+/* Estilos do rodapé */
+.footer__rodape {
+  background-color: #102f4a;
+  color: white;
+  padding: 24px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
